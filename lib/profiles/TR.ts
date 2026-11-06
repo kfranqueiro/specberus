@@ -10,7 +10,6 @@ import { insertAfter } from './profileUtil.js';
 
 // base profile for all things TR
 export const name = 'TR';
-
 const rulesWithAdditionalHeaderRule = insertAfter(base, 'headers.w3c-state', [
     githubRepo,
     copyright,
